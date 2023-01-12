@@ -18,4 +18,8 @@ export class AppComponent {
     }, 1000);
   }
 
+  handleClick(event: string) {
+    console.log(event);
+  }
+
 }
