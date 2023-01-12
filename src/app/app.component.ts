@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  texto : string = "Título";
+  
   isVisable : boolean = true;
+
 
   constructor() {
     setTimeout(() => {
